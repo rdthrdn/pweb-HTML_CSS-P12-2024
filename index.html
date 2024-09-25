@@ -1,71 +1,80 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/styles.css"> <!-- Menghubungkan file CSS -->
-    <title>TokoMedia - Jasa Foto & Video</title>
+    <title>TokoMedia</title>
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Beranda</a></li>
-                <li><a href="#layanan">Layanan</a></li>
-                <li><a href="#galeri">Galeri</a></li>
-                <li><a href="#testimoni">Testimoni</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li> <!-- Halaman kedua -->
-                <li><a href="#kontak">Kontak</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <nav>
+                <h1>Toko<span>Media</span></h1>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Galeri</a></li>
+                    <li><a href="#">Layanan</a></li>
+                    <li><a href="#">Testimoni</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="home" class="hero">
-        <h1>Selamat Datang di <span>TokoMedia</span></h1>
-        <p>Jasa Profesional Foto & Video</p>
-        <a href="#kontak" class="cta">Hubungi Kami</a>
+    <section class="hero">
+        <h2>Selamat Datang di <span>TokoMedia</span></h2>
+        <button>Let's Go</button>
         <div class="social-icons">
-            <a href="#">LinkedIn</a>
-            <a href="#">Instagram</a>
-            <a href="#">WhatsApp</a>
+            <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+            <a href="#"><img src="github-icon.png" alt="GitHub"></a>
+            <a href="#"><img src="whatsapp-icon.png" alt="WhatsApp"></a>
         </div>
     </section>
 
-    <section id="layanan">
-        <h2>Layanan Kami</h2>
-        <p>Kami menyediakan layanan fotografi dan videografi untuk berbagai kebutuhan Anda, mulai dari event, produk, hingga perusahaan.</p>
-        <ul>
-            <li>Fotografi Event</li>
-            <li>Fotografi Produk</li>
-            <li>Video Iklan</li>
-            <li>Video Dokumentasi</li>
-        </ul>
-    </section>
-
-    <section id="galeri">
-        <h2>Galeri Karya</h2>
-        <div class="gallery">
-            <img src="image1.jpg" alt="Contoh karya foto">
-            <img src="image2.jpg" alt="Contoh karya video">
-            <img src="image3.jpg" alt="Contoh karya lainnya">
+    <section class="gallery">
+        <h3>Galeri</h3>
+        <div class="gallery-grid">
+            <div class="gallery-item"></div>
+            <div class="gallery-item"></div>
+            <div class="gallery-item"></div>
+            <div class="gallery-item"></div>
         </div>
     </section>
 
-    <section id="testimoni">
-        <h2>Testimoni Klien</h2>
-        <div class="testimonials">
-            <blockquote>"TokoMedia membuat acara kami terlihat luar biasa dalam video mereka!"</blockquote>
-            <cite>— PT Media Jaya</cite>
-
-            <blockquote>"Hasil foto produk kami sangat memukau dan meningkatkan penjualan."</blockquote>
-            <cite>— UMKM Kreatif</cite>
+    <section class="services">
+        <h3>Layanan</h3>
+        <div class="services-info">
+            <p>Di sini kami belajar hal baru tentang dunia media, yang dimana ini sangat bermanfaat dan berguna untuk bekal kedepannya.</p>
+            <div class="service-details">
+                <div class="service-item">
+                    <span>Photography</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <span>Videography</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 50%;"></div>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <span>Color Grading</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 40%;"></div>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <span>Visual Effects</span>
+                    <div class="progress-bar">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+            </div>
         </div>
+        <div class="services-image"></div>
     </section>
 
-    <footer id="kontak">
-        <p>Hubungi Kami: <a href="mailto:tokomedia@gmail.com">tokomedia@gmail.com</a></p>
-        <p>© 2024 TokoMedia. Semua hak dilindungi.</p>
-    </footer>
 </body>
 </html>
